@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("tarumahesh/hellonode")
+        app = docker.build("tarumahesh/apachev1")
     }
 
  /*   stage('Test image') {
